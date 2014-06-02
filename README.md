@@ -13,7 +13,7 @@ npm install dms2dec --save
 ```
 
 ```javascript
-dms2dec = require('dms2dec');
+var dms2dec = require('dms2dec');
 ```
 
 ### Web
