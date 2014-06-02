@@ -1,6 +1,6 @@
 {
   "name": "dms2dec",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "GPS degrees, minutes, seconds coordinates to decimal",
   "main": "lib/dms2dec.js",
   "directories": {
