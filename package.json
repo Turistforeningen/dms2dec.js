@@ -1,0 +1,36 @@
+{
+  "name": "dms2dec.js",
+  "version": "1.0.0",
+  "description": "GPS degrees, minutes, seconds coordinates to decimal",
+  "main": "lib/dms2dec.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha -b -c -w --check-leaks test/suite.js -R progress"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/Turistforeningen/dms2dec.js.git"
+  },
+  "keywords": [
+    "GPS",
+    "dms",
+    "decimal",
+    "latitude",
+    "longitude",
+    "convert",
+    "degrees",
+    "minutes",
+    "seconds"
+  ],
+  "author": "Hans Kristian Flaatten <hans.kristian.flaatten@turistforeningen.no>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Turistforeningen/dms2dec.js/issues"
+  },
+  "homepage": "https://github.com/Turistforeningen/dms2dec.js",
+  "devDependencies": {
+    "mocha": "^1.20.0"
+  }
+}
