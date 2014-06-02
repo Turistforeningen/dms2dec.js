@@ -26,6 +26,13 @@ dms2dec = require('dms2dec');
 
 [`latDec`, `lonDec`] = dms2dec(String `lat`, String `latRef`, String `lon`, String `lonRef`);
 
+* `lat` – latitude in "degrees, minutes, seconds" format
+* `lagRef` – latitude hemisphere reference (**N**orth / **S**outh)
+* `lon` – longitude in "degrees, minutes, seconds" format
+* `lonRef` – longitude hemisphere reference (**E**ast / **W**est)
+* `latDec` – latitude converted into decimal format
+* `lonDec` – longitude converted into decimal format
+
 ### Parse dms strings
 
 ```javascript
