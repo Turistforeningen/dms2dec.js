@@ -24,7 +24,7 @@ dms2dec = require('dms2dec');
 
 ## Usage
 
-[`latDec`, `lonDec`] = dns2dec(String `lat`, String `latRef`, String `lon`, String `lonRef`);
+[`latDec`, `lonDec`] = dms2dec(String `lat`, String `latRef`, String `lon`, String `lonRef`);
 
 ### Parse dms strings
 
