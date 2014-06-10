@@ -1,6 +1,8 @@
 dms2dec.js [![Build Status](https://drone.io/github.com/Turistforeningen/dms2dec.js/status.png)](https://drone.io/github.com/Turistforeningen/dms2dec.js/latest)
 ==========
 
+[![NPM](https://nodei.co/npm/dms2dec.png?downloads=true)](https://www.npmjs.org/package/dms2dec)
+
 Degrees, minutes, seconds (sexagesimal) to decimal GPS positions. Useful for
 parsing PGS exif tags in geotagged images.
 
