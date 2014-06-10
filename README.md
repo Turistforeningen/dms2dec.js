@@ -6,7 +6,7 @@ parsing PGS exif tags in geotagged images.
 
 ## Install
 
-### Node/npm
+### Node.JS
 
 ```bash
 npm install dms2dec --save
