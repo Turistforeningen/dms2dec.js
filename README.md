@@ -74,4 +74,3 @@ var geojson = {
 };
 ```
 
-
