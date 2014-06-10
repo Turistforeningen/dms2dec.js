@@ -1,4 +1,4 @@
-dms2dec.js
+dms2dec.js [![Build Status](https://drone.io/github.com/Turistforeningen/dms2dec.js/status.png)](https://drone.io/github.com/Turistforeningen/dms2dec.js/latest)
 ==========
 
 Degrees, minutes, seconds (sexagesimal) to decimal GPS positions. Useful for
