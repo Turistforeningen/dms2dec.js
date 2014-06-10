@@ -70,7 +70,7 @@ returned from `dms2dec()`.
 ```
 var geojson = {
   type: 'Point',
-  coorinates: dms2dec(lat, latRef, lon, lonRef).reverse()
+  coordinates: dms2dec(lat, latRef, lon, lonRef).reverse()
 };
 ```
 
