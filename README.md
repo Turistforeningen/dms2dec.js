@@ -63,11 +63,15 @@ var dec = dms2dec([60, 21, 40.45], "N", [5, 22, 15.55], "E");
 
 ### GeoJSON
 
+`NB!` Remember that GeoJSON stores coordinates in reversed order (`longitude`,
+`latitude`) which means you have to reverse the order of the coordinates
+returned from `dms2dec()`.
+
 ```
 var geojson = {
   type: 'Point',
-  coorinates: dms2dec(["60/1", "21/1", "4045/100"], "N", ["5/1", "22/1", "1555/100"], "E").reverse()
-}
+  coorinates: dms2dec(lat, latRef, lon, lonRef).reverse()
+};
 ```
 
 
