@@ -28,10 +28,15 @@ var dms2dec = require('dms2dec');
 
 [`latDec`, `lonDec`] = dms2dec(String `lat`, String `latRef`, String `lon`, String `lonRef`);
 
+#### Params
+
 * `lat` – latitude in "degrees, minutes, seconds" format
 * `lagRef` – latitude hemisphere reference (N or S)
 * `lon` – longitude in "degrees, minutes, seconds" format
 * `lonRef` – longitude hemisphere reference (E or W)
+
+#### Return
+
 * `latDec` – latitude converted into decimal format
 * `lonDec` – longitude converted into decimal format
 
