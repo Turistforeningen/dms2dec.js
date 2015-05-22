@@ -1,3 +1,5 @@
+/*jshint laxcomma:true */
+
 var assert = require('assert');
 var dms2dec = require('../lib/dms2dec');
 
