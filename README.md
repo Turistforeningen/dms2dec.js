@@ -1,7 +1,10 @@
-dms2dec.js [![Build Status](https://drone.io/github.com/Turistforeningen/dms2dec.js/status.png)](https://drone.io/github.com/Turistforeningen/dms2dec.js/latest)
-==========
+# dms2dec.js
 
-[![NPM](https://nodei.co/npm/dms2dec.png?downloads=true)](https://www.npmjs.org/package/dms2dec)
+[![Build status](https://img.shields.io/wercker/ci/555f9d4c49f5656573001db6.svg "Build status")](https://app.wercker.com/project/bykey/095d1525c8493a2ece0f8c12b4442898)
+[![NPM downloads](https://img.shields.io/npm/dm/dms2dec.svg "NPM downloads")](https://www.npmjs.com/package/dms2dec)
+[![NPM version](https://img.shields.io/npm/v/dms2dec.svg "NPM version")](https://www.npmjs.com/package/dms2dec)
+[![Node version](https://img.shields.io/node/v/dms2dec.svg "Node version")](https://www.npmjs.com/package/dms2dec)
+[![Dependency status](https://img.shields.io/david/turistforeningen/node-dms2dec.svg "Dependency status")](https://david-dm.org/turistforeningen/node-dms2dec)
 
 Degrees, minutes, seconds (sexagesimal) to decimal GPS positions. Useful for
 parsing PGS exif tags in geotagged images.
