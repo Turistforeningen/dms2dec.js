@@ -44,7 +44,7 @@ describe('dms2dec', function() {
 
   it('should parse southern coorinates', function() {
     latRef = 'S';
-    latDec = -60.36123611111111
+    latDec = -60.36123611111111;
 
     assert.deepEqual(dms2dec(lat, latRef, lon, lonRef), [latDec, lonDec]);
   });
