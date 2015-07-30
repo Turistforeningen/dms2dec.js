@@ -1,10 +1,12 @@
-box: wercker/nodejs
+box: iojs:slim
 build:
   steps:
-    - jshint:
-        version: 2.6
-
     - npm-install
+
+    - script:
+        name: jshint
+        code: npm run hint
+
     - npm-test
 
     - script:
@@ -19,4 +21,4 @@ build:
 
 deploy:
   steps:
-    - kwakayama/npm-publish
+    - turistforeningen/npm-publish
