@@ -48,6 +48,10 @@ var dms2dec = require('dms2dec');
 ```javascript
 var dec = dms2dec("60/1, 21/1, 4045/100", "N", "5/1, 22/1, 1555/100", "E");
 // dec[0] == 60.36123611111111, dec[1] == 5.370986111111111
+
+// without spaces or commas in the dms strings are also supported
+var dec = dms2dec("60/1,21/1,4045/100", "N", "5/1,22/1,1555/100", "E");
+var dec = dms2dec("60/1 21/1 4045/100", "N", "5/1 22/1 1555/100", "E");
 ```
 
 ### Parse dms arrays
