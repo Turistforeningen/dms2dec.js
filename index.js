@@ -1,26 +1,37 @@
 (function() {
   var dms2dec = function(lat, latRef, lon, lonRef) {
     var ref = {'N': 1, 'E': 1, 'S': -1, 'W': -1};
+    var sep = [' ,', ' ', ','];
     var i;
 
     if (typeof lat === 'string') {
-      lat = lat.split(',');
+      for (i = 0; i < sep.length; i++) {
+        if (lat.split(sep[i]).length === 3) {
+          lat = lat.split(sep[i]);
+          break;
+        }
+      }
     }
 
     if (typeof lon === 'string') {
-      lon = lon.split(',');
+      for (i = 0; i < sep.length; i++) {
+        if (lon.split(sep[i]).length === 3) {
+          lon = lon.split(sep[i]);
+          break;
+        }
+      }
     }
 
     for (i = 0; i < lat.length; i++) {
       if (typeof lat[i] === 'string') {
-        lat[i] = lat[i].replace(/^\s+|\s+$/g,'').split('/');
+        lat[i] = lat[i].split('/');
         lat[i] = parseInt(lat[i][0], 10) / parseInt(lat[i][1], 10);
       }
     }
 
     for (i = 0; i < lon.length; i++) {
       if (typeof lon[i] === 'string') {
-        lon[i] = lon[i].replace(/^\s+|\s+$/g,'').split('/');
+        lon[i] = lon[i].split('/');
         lon[i] = parseInt(lon[i][0], 10) / parseInt(lon[i][1], 10);
       }
     }
@@ -45,4 +56,3 @@
     window.dms2dec = dms2dec;
   }
 })();
-
