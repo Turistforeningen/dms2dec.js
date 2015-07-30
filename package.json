@@ -29,6 +29,6 @@
   },
   "homepage": "https://github.com/Turistforeningen/dms2dec.js",
   "devDependencies": {
-    "mocha": "~1"
+    "mocha": "~2"
   }
 }
