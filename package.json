@@ -2,13 +2,10 @@
   "name": "dms2dec",
   "version": "1.0.3",
   "description": "GPS degrees, minutes, seconds coordinates to decimal",
-  "main": "lib/dms2dec.js",
-  "directories": {
-    "test": "test"
-  },
+  "main": "index.js",
   "scripts": {
-    "test": "node_modules/.bin/mocha test/suite.js -R spec",
-    "watch": "node_modules/.bin/mocha -b -c -w --check-leaks test/suite.js -R progress"
+    "test": "mocha test.js -R spec",
+    "watch": "mocha -b -c -w --check-leaks test.js -R progress"
   },
   "repository": {
     "type": "git",
