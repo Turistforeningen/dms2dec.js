@@ -4,6 +4,7 @@
   "description": "GPS degrees, minutes, seconds coordinates to decimal",
   "main": "index.js",
   "scripts": {
+    "hint": "jshint index.js test.js",
     "test": "mocha test.js -R spec",
     "watch": "mocha -b -c -w --check-leaks test.js -R progress"
   },
@@ -29,6 +30,7 @@
   },
   "homepage": "https://github.com/Turistforeningen/dms2dec.js",
   "devDependencies": {
+    "jshint": "~2",
     "mocha": "~2"
   }
 }
