@@ -1,5 +1,5 @@
-dms2dec:
-    image: iojs:1-slim
+dev:
+    image: iojs:slim
     volumes:
         - .:/usr/src/app
     working_dir: /usr/src/app

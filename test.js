@@ -1,7 +1,7 @@
 /*jshint laxcomma:true */
 
 var assert = require('assert');
-var dms2dec = require('../lib/dms2dec');
+var dms2dec = require('./index');
 
 describe('dms2dec', function() {
   var lat = '60/1, 21/1, 4045/100'
