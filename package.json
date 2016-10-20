@@ -30,7 +30,7 @@
   },
   "homepage": "https://github.com/Turistforeningen/dms2dec.js",
   "devDependencies": {
-    "jshint": "~2",
+    "jshint": "~2.9.4",
     "mocha": "~3.0.2"
   }
 }
